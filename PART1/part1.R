@@ -1,3 +1,6 @@
+# **Encoding: utf-8**
+# **author: Yage Hao (yage@kth.se)**
+
 # import library
 library(ggplot2)
 library(forecast)
@@ -48,3 +51,19 @@ checkresiduals(automodel2)
 model1 <- arima(data_ts, order = c(4,0,1)) 
 summary(model1)
 checkresiduals(model1)
+
+# forecasting
+test_ts = ts(data = test$LandAverageTemperature, start = decimal_date(ymd('2011-01-01')), frequency = 12)
+# MA(2)
+pred_auto1 <- forecast :: forecast(object=test_ts, model=automodel1)
+autoplot(pred_auto1)
+plot(x=test$LandAverageTemperature, y=pred_auto1$fitted,xlab='Actual', ylab='Predicted')
+# ARIMA(3,0,0)(1,1,1)[12]
+pred_auto2 <- forecast :: forecast(object=test_ts, model=automodel2)
+autoplot(pred_auto2)
+plot(x=test$LandAverageTemperature, y=pred_auto2$fitted,xlab='Actual', ylab='Predicted')
+# ARMA(4,1)
+pred1 <- forecast :: forecast(object=test_ts, model=model1)
+autoplot(pred1)
+plot(x=test$LandAverageTemperature, y=pred1$fitted,xlab='Actual', ylab='Predicted')
+

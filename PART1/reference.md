@@ -38,9 +38,9 @@ https://otexts.com/fppcn/arima-r.html
 
 https://medium.com/r-%E8%AA%9E%E8%A8%80%E8%87%AA%E5%AD%B8%E7%B3%BB%E5%88%97/r%E8%AA%9E%E8%A8%80%E8%87%AA%E5%AD%B8%E6%97%A5%E8%A8%98-14-arima%E6%A8%A1%E5%9E%8B%E7%B0%A1%E4%BB%8B%E8%88%87%E5%AE%9A%E9%9A%8E-d1fa7037c53d
 
+**收入时间序列——之模型探索篇**
 
-
-
+https://zhuanlan.zhihu.com/p/49945157
 
 
 
