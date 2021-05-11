@@ -42,5 +42,7 @@ https://medium.com/r-%E8%AA%9E%E8%A8%80%E8%87%AA%E5%AD%B8%E7%B3%BB%E5%88%97/r%E8
 
 https://zhuanlan.zhihu.com/p/49945157
 
+**参考REPO**
 
+https://github.com/aeroplani/Analysis-of-Global-temperatures/blob/main/Time_Series_Analysis_of_Global_Temperatures.pdf
 
